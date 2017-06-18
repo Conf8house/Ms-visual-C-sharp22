@@ -23,5 +23,10 @@ namespace WindowsFormsApplication1
             button1.Text  = "Press me";
                 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox .Show ("Hallow everyone");
+        }
     }
 }
