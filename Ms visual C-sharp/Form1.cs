@@ -16,5 +16,12 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            label1 = "Microsoft Visual C# 12";
+            button1 = "Press my and say hellow";
+                
+        }
     }
 }
