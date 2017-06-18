@@ -19,8 +19,8 @@ namespace WindowsFormsApplication1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            label1 = "Microsoft Visual C# 12";
-            button1 = "Press my and say hellow";
+            label1.Text  = "Microsoft Visual C# 12";
+            button1.Text  = "Press me";
                 
         }
     }
