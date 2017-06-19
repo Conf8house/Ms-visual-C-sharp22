@@ -19,6 +19,7 @@ namespace WindowsFormsApplication1
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            base.Text = "Helow";
             label1.Text  = "Microsoft Visual C# 12";
             label2.Text = "Microsoft Visual C# 12";
             button1.Text  = "Press me";
