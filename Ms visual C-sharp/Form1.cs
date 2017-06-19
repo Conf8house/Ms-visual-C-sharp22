@@ -19,14 +19,25 @@ namespace WindowsFormsApplication1
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            base.Text = "Helow";
             label1.Text  = "Microsoft Visual C# 12";
+            label2.Text = "Microsoft Visual C# 12";
             button1.Text  = "Press me";
+            tabPage1.Text = "C#";
+            tabPage2.Text = "Hover";
                 
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+           
             MessageBox .Show ("Hallow everyone");
         }
+
+        private void label2_MouseHover(object sender, EventArgs e)
+        {
+            MessageBox.Show("Event of Hover!");
+        }
+
     }
 }
